@@ -56,3 +56,9 @@ models:
       +persist_docs:   # Missing + prefix (dbt Core ignores, Fusion validates)
         relation: true
         columns: true
+
+seeds:
+  jaffle_shop:
+    +schema: raw
+    jaffle-data:
+      +enabled: "{{ var('load_source_data', false) }}"

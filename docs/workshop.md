@@ -63,6 +63,7 @@ dbtf debug
 ## 6. Install packages and parse
 
 ```bash
+dbt clean
 dbtf deps
 dbtf parse
 ```

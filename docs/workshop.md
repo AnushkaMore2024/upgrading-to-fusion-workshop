@@ -6,7 +6,7 @@ Before the workshop, make sure you have the following installed:
 
 - [VS Code](https://code.visualstudio.com/) (or another editor of your choice)
 - [Git](https://git-scm.com/)
-- [dbt extension for VS Code](https://marketplace.visualstudio.com/items?itemName=dbtLabsInc.dbt&ssr=false#overview)
+- [dbt extension for VS Code](https://marketplace.visualstudio.com/items?itemName=dbtLabsInc.dbt&ssr=false#overview) (or if using Cursor use the [Open VSX registry](https://open-vsx.org/extension/dbtLabsInc/dbt))
 - [uv](https://docs.astral.sh/uv/) — install with `curl -LsSf https://astral.sh/uv/install.sh | sh`
 
 ## 1. Clone the starter repo

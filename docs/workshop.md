@@ -62,6 +62,7 @@ dbtf debug
 ```bash
 dbtf clean
 dbtf deps
+uvx dbt-autofix packages
 dbtf init --fusion-upgrade
 dbtf parse
 ```

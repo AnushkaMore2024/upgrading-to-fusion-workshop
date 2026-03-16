@@ -3,11 +3,12 @@ upgrading_to_fusion:
   outputs:
     dev:
       type: snowflake
-      threads: 16
-      account: "AXAUWMQ-VW23121"
-      user: "ANUSHKAPIBYTHREE"
-      database: "snowflake_learning_db"
-      warehouse: "compute_wh"
-      schema: "fusion_dev"
-      password: "Anushka@@piby3"
-      role: "ACCOUNTADMIN"
+      account: "{{ env_var('ACCOUNT') }}"
+
+      user: "{{ env_var('USER') }}"
+      password: "{{ env_var('PASSWORD') }}" # enter password you used to signup for Snowflake demo account here
+      role: ACCOUNTADMIN
+      
+      database: snowflake_learning_db
+      warehouse: compute_wh
+      schema: fusion_dev

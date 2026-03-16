@@ -4,6 +4,7 @@
     access='private',
     group='finance',
     contract={'enforced': true},
+    enabled=false,
     description='Protected financial reporting model with enhanced governance'
   )
 }}

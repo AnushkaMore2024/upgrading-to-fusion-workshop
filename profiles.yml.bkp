@@ -1,0 +1,13 @@
+upgrading_to_fusion:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      threads: 16
+      account: "AXAUWMQ-VW23121"
+      user: "ANUSHKAPIBYTHREE"
+      database: "snowflake_learning_db"
+      warehouse: "compute_wh"
+      schema: "fusion_dev"
+      password: "Anushka@@piby3"
+      role: "ACCOUNTADMIN"
